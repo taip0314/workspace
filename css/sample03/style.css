@@ -1,0 +1,15 @@
+@import url("../sanitize.css");
+
+body {
+
+    /* 背景色をグレーに */
+    background-color: #f0f0f0;
+
+    /* 要素内の余白を10pxに */
+    padding: 10px;
+
+    /* 文字の大きさを14pxに */
+    font-size: 14px;
+
+
+}
