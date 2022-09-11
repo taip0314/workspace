@@ -3,14 +3,12 @@
     <h1>{{title}}</h1>
     <p>{{$store.state.message}}</p>
     <hr>
-    <p>{{$store.state.subMessage}}</p>
-    <div class="link" @click.exact="$store.commit({type:'count', message:'add 1!',add:1})"
-      @click.shift="$store.commit({type:'reset', message:'Reset!'})">
+    <div class="link" @click="$store.commit('doit')" @click.shift="$store.commit('reset')">
       <button>
-        clicked: {{$store.state.counter}}
+        clicked:{{$store.state.counter}}
       </button>
+
     </div>
-    <pre>{{now}}</pre>
     <router-link to="/other">goto</router-link>
   </section>
 </template>
@@ -23,18 +21,13 @@ export default {
       now: '..wait'
     };
   },
-  created: function () {
-    setInterval(() => {
-      var d = new Date();
-      this.now = d.getHours() + ':' + d.getMinutes() + ':' + d.getSeconds();
-    }, 1000);
-  },
+
   methods: {
     doAction: function () {
       this.$store.state.counter++;
     }
   }
-;
+
 };
 </script>
 

@@ -14,7 +14,9 @@
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "vuex-persistedstate": "^3.2.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^4.46.0"
+  }
 }
