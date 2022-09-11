@@ -1,0 +1,63 @@
+/* プロパティ: 値; 
+   「プロパティ」とは、何を変化するのかを示すもので、先の例では
+   フォントの大きさを表す「font-size」プロパティを指定。*/
+@import url("sanitize.css");
+
+.content {
+    width: 600px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+    padding: 30px;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.content p {
+    font-size: 14px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 1.2em;
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: #2096F3;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+button:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, .4);
+}
+
+.control {
+    margin-bottom: .5em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+.reqired {
+    margin: .3em;
+    color: #f33;
+    font-size: .8em;
+    padding: 3px;
+    background-color: #fee;
+    font-weight: bold;
+}
+
+body {
+    background-color: #fafafa;
+}
