@@ -34,6 +34,7 @@ export default {
       this.$store.state.counter++;
     }
   }
+;
 };
 </script>
 
