@@ -1,0 +1,203 @@
+/* 初期化 */
+
+@import url("sanitize.css");
+
+body {
+
+    /* 背景色をグレー */
+    background-color: #f0f0f0;
+
+    /* 要素内の余白を10px */
+    padding: 10px;
+
+    /* 文字の大きさを14px */
+    font-size: 14px;
+
+    /* 文字の色を、濃いめのグレーに */
+    color: #666;
+}
+
+.container {
+
+    /* 幅を800pxに */
+    width: 800px;
+
+    /* 左右の余白をauto,左右中央揃えに */
+    margin: 0 auto;
+
+    /* 影をつける */
+    box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+
+}
+
+header {
+
+    /* 背景色を茶色 */
+    background-color: #422814;
+
+    /* 要素内の余白を10px */
+    padding: 10px;
+
+    /* 文字を白に */
+    color: white;
+
+}
+
+header h1 {
+
+    /* 文字の大きさを24px */
+    font-size: 24px;
+
+    /* 文字の大きさを細め */
+    font-weight: normal;
+
+    /* テキストを中央揃え */
+    text-align: center;
+
+}
+
+.description {
+
+    /* 左の回り込みを解除 */
+    clear: left;
+}
+
+.description img {
+
+    /* 左に回り込ませる */
+    float: left;
+
+    /* 右、下の余白を10px */
+    margin: 0 10px 10px 0;
+
+}
+
+.infomation h1 {
+
+    /* 文字の大きさを18pxに */
+    font-size: 18px;
+
+    /* 余白を下と右に10pxずつ */
+    margin: 0 10px 10px 0;
+
+    /* 左に回り込ませる */
+    float: left;
+
+}
+
+.infomation .type {
+
+    /* インラインスタイルへ */
+    display: inline;
+
+    /* 背景色をピンクに */
+    background-color: #e35a4d;
+
+    /* 要素内余白を上下3px、左右5pxに*/
+    padding: 3px 5px;
+
+    /* 文字の大きさを少し小さく */
+    font-size: .8em;
+
+    /* 文字の色を白に */
+    color: white;
+
+}
+
+.content {
+
+    /* 背景色を白に */
+    background-color: white;
+
+    /* 要素内余白を20px */
+    padding: 20px;
+
+}
+
+.songs {
+
+    /* 下の余白のみ20pxに */
+    margin: 0 0 20px 0;
+
+}
+
+.songs h2 {
+
+    /* 紹介文の画像回り込みが影響しないようにする */
+    clear: left;
+
+    /* フォントの大きさを本文と同じに */
+    font-size: 100%;
+
+    /* フォントの太さを通常通りに */
+    font-weight: normal;
+
+    /* 余白をなくす */
+    margin: 0;
+
+    /* 背景色を薄い茶色に */
+    background-color: #e6e4dd;
+
+    /* 要素内の余白を上下5px、左右10pxに */
+    padding: 5px 10px;
+
+}
+
+.songs ol {
+
+    /* 要素内余白をなくす */
+    padding: 0;
+
+    /* 余白をなくす */
+    margin: 0;
+
+    /* リストのスタイルを算用数字にして数字を内側に */
+    list-style: decimal inside;
+
+}
+
+.songs li {
+
+    /* 要素の下のみに枠線を引く */
+    border-bottom: 1px solid #ccc;
+
+    /* 要素の幅を50％に */
+    width: 50%;
+
+    /* 左に回り込み */
+    float: left;
+
+    /* 要素内余白を上下5px、左右10pxに */
+    padding: 5px 10px;
+
+}
+
+.clearfix {
+
+    content: " ";
+    display: table;
+    clear: both;
+
+}
+
+a {
+
+    /* 文字の色を青からグレーへ */
+    color: #666;
+}
+
+a:hover {
+
+    /* カーソルがあったら青色に */
+    color: cadetblue;
+
+}
+
+footer {
+
+    /* テキストを中央に */
+    text-align: center;
+
+    /* フォントサイズを80% */
+    font-size: 80%;
+}
