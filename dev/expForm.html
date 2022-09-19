@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アルバイト応募フォーム</title>
+</head>
+<body>
+    <h1>アルバイト応募フォーム</h1>
+
+    <form action="#" method="post">
+        <dl>
+            <dt><label for="name">お名前</label></dt>
+            <dd><input type="text" name="name" id="name" required></dd>
+            <dt><label for="email">email</label></dt>
+            <dd><input type="email" name="email" id="email" required></dd>
+            <dt>性別</dt>
+            <dd><label><input type="radio" name="gender" id="gender" value="male" checked>男性</label>
+                <label><input type="radio" name="gender" id="gender" value="female">女性</label></dd>
+            <dt><label for="job">現在のご職業</label></dt>
+            <dd>
+                <select name="job" id="job">
+                    <option value="" selected>選択してください</option>
+                    <option value="student">学生</option>
+                    <option value="non">無職</option>
+                    <option value="other">その他</option>
+                </select>
+            </dd>
+            <dt><label for="contents">自己PR</label></dt>
+            <dd><textarea name="contents" id="contents"></textarea></dd>
+            <dt><label for="policy">プライバシーポリシーに同意する</label></dt>
+            <dd><input type="checkbox" name="policy" id="policy"></dd>
+        </dl>
+
+        <input type="submit" value="送信">
+    </form>
+</body>
+</html>
