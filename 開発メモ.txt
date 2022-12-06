@@ -1,0 +1,7 @@
+1.pagesへファイルの追加
+　新しいページを追加するために、pagesディレクトリの中にabout.vueを作成
+　ブラウザからhttp://localhost:3000/aboutへ接続すると、
+　about.vueが表示される
+　nuxtが自動でファイル名に対応するURLに対してルーティングするようにしている。
+
+　追加したaboutについてのルーティング情報は .nuxtディレクトリのrouter.jsで確認できる
